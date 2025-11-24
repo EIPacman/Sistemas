@@ -7,5 +7,3 @@ function cambiar(n) {
   document.getElementById("foto").src = fotos[i];
   document.getElementById("texto").innerText = textos[i];
 }
-
-document.body.style.zoom = "90%";

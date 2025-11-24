@@ -213,3 +213,136 @@ header {
   opacity: 0.85;
   text-align: right;
 }
+
+
+
+
+
+@media (max-width: 1024px) {
+  .titulo h1 {
+    font-size: 40px;
+  }
+
+  .card {
+    width: 92%;
+  }
+
+  .slider {
+    height: 450px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .logo {
+    width: 140px;
+  }
+
+  .titulo h1 {
+    font-size: 32px;
+    padding: 0 10px;
+  }
+
+  .subtitulo {
+    font-size: 26px;
+  }
+
+  .card p,
+  .card li {
+    font-size: 19px;
+  }
+
+  .slider {
+    height: 350px;
+  }
+
+  #texto {
+    font-size: 18px;
+  }
+
+  .flecha {
+    width: 45px;
+    font-size: 30px;
+  }
+
+  .mapa-container {
+    height: 350px;
+  }
+
+  .footer-contenido {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .corporativo {
+    position: static;
+    transform: none;
+  }
+}
+
+@media (max-width: 480px) {
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 60px;
+  max-width: 60px;
+  max-height: 60px;
+  height: auto;
+  object-fit: contain;
+  z-index: 10;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 45px;
+    max-width: 45px;
+    max-height: 45px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    width: 40px;
+    max-width: 40px;
+    max-height: 40px;
+  }
+}
+
+  .titulo h1 {
+    font-size: 26px;
+  }
+
+  .subtitulo {
+    font-size: 22px;
+  }
+
+  .card p,
+  .card li {
+    font-size: 17px;
+  }
+
+  .slider {
+    height: 260px;
+  }
+
+  #texto {
+    font-size: 15px;
+  }
+
+  .flecha {
+    width: 35px;
+    font-size: 24px;
+  }
+
+  .mapa-container {
+    height: 250px;
+  }
+
+  #catalog div {
+    max-width: 100%;
+    flex: 1 1 100%;
+  }
+}
